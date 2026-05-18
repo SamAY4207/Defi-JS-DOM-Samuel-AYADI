@@ -63,8 +63,8 @@ function ficheProduit(catalogue) {
     */
     //
     function ajouterADIVProduit(produit) {
-        document.getElementById("contenneurProduit").innerHTML += ajouterADIVProduit(`
-    <div class="carte-produit">
+        document.getElementById("contenneurProduit").innerHTML += produit(`
+    <div>
         <h3>${produit.nom}</h3>
         <p>Marque : ${produit.marque}</p>
           
